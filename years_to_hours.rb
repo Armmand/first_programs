@@ -11,9 +11,14 @@ puts "That's #{hours} hours."
 puts "Enter a number of decades"
 decades = gets.chomp # this returns a string
 decades = decades.to_i # this converts a string to an integer
-minutes = decades * 10 * 5,256,000
+minutes = decades * 1 * 5,256,000
 minutes = minutes.to_s  # this converts the result to a 
                     # string so that we can print it
 puts "That's #{minutes} minutes."
                     
-
+                    
+puts "Enter your age"
+age = gets.chomp
+age = age.to_i 
+seconds = age * 365 * 24 * 3600
+puts "That's #{seconds} seconds."
