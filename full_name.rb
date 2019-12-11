@@ -36,6 +36,7 @@ fullname << gets.chomp.strip
 puts "Hello, #{fullname[0]} #{fullname[1]} #{fullname[2]}!"
 
 
+#This is a good example of Clean code
 fullname = []
 puts "Enter your first name."
 fullname << gets.chomp.strip
